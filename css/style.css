@@ -1,0 +1,110 @@
+/* Definição de fontes */
+@font-face{
+    font-family: "Unbounded";
+    font-weight: 700;
+    src: url('../fonts/Unbounded-Bold.ttf') format('truetype');
+}
+@font-face{
+    font-family: "Poppins";
+    font-weight: 400;
+    src: url('../fonts/Poppins-Regular.ttf') format('truetype');
+}
+/* Reset */
+*{
+    margin:0;
+    padding:0;
+}
+/* Estilização Desktop*/
+body{
+    background-color: black;
+}
+header{
+    width: 100%;
+    display: block;
+    margin: 75px 0 0 360px;
+}
+h1{
+    font-size: 64px;
+    color: #FFFFFF;
+    font-family: 'Unbounded', sans-serif;
+    width: 792px;
+    margin: 60px auto 0 auto;
+    text-align: center;
+}
+p{
+    font-size: 24px;
+    width: 792px;
+    margin: 24px auto 0 auto;
+    color: #808080;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+span{
+    color: #9747FF;
+}
+a{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+    background-color: #9747FF;
+    width: 340px;
+    height: 66px;
+    display: block;
+    text-align: center;
+    line-height: 66px;
+    border-radius: 36px;
+    margin: 40px auto;
+}
+a:hover{
+    background-color: #8233E8;
+}
+section img{
+    display: block;
+    width: 799px;
+    height: 499px;
+    margin: 0 auto;
+}
+@media(max-width: 768px){
+    header{
+        margin: 65px 0 0 60px;
+    }
+    h1{
+        width: 648px;
+        margin: 72px auto 0 auto;
+    }
+    p{
+        width: 648px;
+        margin: 24px auto 0 auto;
+    }
+    section img{
+        width: 648px;
+        height: 404px;
+    }
+}
+@media(max-width: 375px){
+    header{
+        margin:36px 0 0 16px;
+    }
+    h1{
+        width: 341px;
+        font-size: 40px;
+        margin: 60px auto 0 auto;
+    }
+    p{
+        width: 341px;
+        font-size: 20px;
+        margin: 24px auto 0 auto;
+    }
+    a{
+        font-size: 20px;
+        width:251px;
+        height: 66px;
+        margin: 40px auto 0 auto;
+    }
+    section img{
+        width: 341px;
+        height: 230px;
+        margin: 40px auto 0 auto;
+    }
+}
